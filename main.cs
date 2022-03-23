@@ -12,18 +12,14 @@ class Program
         // This function accepts user input
         string streetName;
         int streetNumber;
-
         Console.WriteLine("This program gets a user's name and age.");
         Console.WriteLine("");
-
       Console.Write("Enter your street number: ");
         streetNumber = Convert.ToInt32(Console.ReadLine()); 
       Console.Write("Enter your street name: ");
         streetName = Console.ReadLine();
-
         Console.WriteLine("");
         Console.WriteLine("Your info is: " + streetNumber + " " + streetName + ".");
-
         Console.WriteLine("\nDone.");
     }
 }
