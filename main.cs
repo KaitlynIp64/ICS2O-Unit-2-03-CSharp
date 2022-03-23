@@ -2,9 +2,7 @@
 // Created on: Mar 2022
 //
 // This program accepts user input
-
 using System;
-
 class Program
 {
     public static void Main(string[] args)
